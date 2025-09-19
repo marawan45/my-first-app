@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import scipy
+
 import streamlit as st
 import matplotlib.pyplot as plt   
 import seaborn as sns             
@@ -253,6 +253,7 @@ elif page=='Preprocessing':
     st.dataframe(df_copy.head())
 
     st.write('The dataset is now preprocessed and ready for further analysis or modeling.')
+
 
 
 
