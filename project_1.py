@@ -94,7 +94,7 @@ if st.session_state.theme == "Light":
 else:
     st.markdown(dark_theme, unsafe_allow_html=True)
 
-df=pd.read_csv('C://Users//maraw//Downloads//archive (8)//netflix_titles.csv')
+df=pd.read_csv('netflix_titles.csv')
 df_copy=df.copy()
 df_copy.drop_duplicates(inplace=True)
 df_copy.dropna(subset=['country'], inplace=True)
@@ -258,3 +258,4 @@ elif page=='Preprocessing':
 
 
     
+
